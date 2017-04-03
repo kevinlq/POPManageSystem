@@ -1,0 +1,291 @@
+QWidget#widget_title{
+	background: qlineargradient(spread:padding-bottom, x1:0, y1:0, x2:0, y2:1, stop:0 #1B89A1, stop:1 #1077A0);
+}
+QLabel#lab_Ico,QLabel#lab_Title{
+	border-radius:0px;
+	color: #F0F0F0;
+	background-color:rgba(0,0,0,0);
+	border-style:none;
+}
+QPushButton#btnMenu_Close{
+	border-radius:0px;
+	color: #F0F0F0;
+	background-color:rgba(0,0,0,0);
+	border-style:none;
+}
+
+QPushButton#btnMenu_Close:hover{
+	background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgba(238, 0, 0, 128), stop:1 rgba(238, 44, 44, 255));
+}
+QToolButton#m_ptbnClose{
+	image:url(:/image/sysButton/close.png);
+}
+QToolButton#m_ptbnClose:hover{
+	image:url(:/image/sysButton/close_hover.png);
+}
+QToolButton#m_ptbnClose:pressed{
+	image:url(:/image/sysButton/close_pressed.png);
+}
+
+QToolButton#m_ptbnMix{
+	image:url(:/image/sysButton/min.png);
+}
+QToolButton#m_ptbnMix:hover{
+	image:url(:/image/sysButton/min_hover.png);
+}
+QToolButton#m_ptbnMix:pressed{
+	image:url(:/image/sysButton/min_pressed.png);
+}
+
+QPushButton#transparentButton{
+	background:transparent;
+}
+
+QPushButton#menuButton{
+	background:transparent;
+}
+QPushButton#menuButton::menu-indicator{
+	image:None;
+}
+
+QPushButton#trayButton{
+	background:transparent; 
+	color:white;
+}
+
+QPushButton#okButton{
+	border:1px solid lightgray;
+	background:rgb(230,230,230);
+}
+QPushButton#okButton:hover{
+	border-color:green;
+	background:transparent;
+}
+
+QPushButton#skinButton{
+	border-radius:3px;
+	border:1px solid rgb(180, 190, 200);
+	color:rgb(70, 70, 70);
+	background:transparent;
+}
+
+QPushButton#greenButton{
+	border-radius:5px;
+	background:rgb(110, 190, 10);
+	color:white;
+}
+QPushButton#greenButton:hover{
+	background:rgb(140, 220, 35)
+}
+
+QPushButton#loginGreenButton{
+	border-radius:2px;
+	background:rgb(110, 190, 10);
+	color:white;
+}
+QPushButton#loginGreenButton:hover{
+	background:rgb(140, 220, 35)
+}
+
+QPushButton#loginButton{
+	color:green;
+	border-image:url(:/contentWidget/login);
+}
+QPushButton#loginButton:hover{
+	color:rgb(110, 190, 10);
+}
+
+QPushButton#blueButton{
+	color:rgb(0, 120, 230);
+	background:transparent;
+}
+QPushButton#blueButton:hover{
+	color:rgb(50, 150, 255);
+}
+
+QPushButton#redButton{
+	border-radius:2px;
+    color:white;
+	background:rgb(240, 50, 70);
+}
+QPushButton#redButton:hover{
+	background:rgb(255, 90, 100);
+}
+
+QPushButton#examineAuthorizeButton{
+	text-align:left;
+	color:rgb(0, 120, 230);
+	background:transparent;
+}
+QPushButton#examineAuthorizeButton:hover{
+	color:rgb(50, 150, 255);
+}
+
+QToolButton#functionButton{
+	background:transparent;
+}
+QToolButton#functionButton:hover{
+	border-radius:5px;
+	border:1px solid rgb(210, 225, 230);
+}
+
+QToolButton#transparentToolButton{
+	background:transparent;
+}
+
+QToolButton#grayToolButton{
+    color:gray;
+	background:transparent;
+}
+
+QLabel#whiteLabel{
+	color:white;
+}
+
+QLabel#grayLabel{
+	color:gray;
+}
+
+QLabel#infoLabel{
+	color:rgb(30,170,60);
+}
+
+QSplitter::handle{
+	background:lightgray;
+}
+
+QMenu{
+    background:white;
+	border:1px solid lightgray;
+}
+QMenu::item{
+	padding:0px 100px 0px 20px;
+	height:25px;
+}
+QMenu::item:selected:enabled{
+    background:lightgray;
+	color:white;
+}
+QMenu::item:selected:!enabled{
+    background:transparent;
+}
+QMenu::separator{
+    height:1px;
+    background:lightgray;
+	margin:2px 0px 2px 0px;
+}
+
+QMenu#menu{
+    background:white;
+	border:1px solid lightgray;
+}
+QMenu#menu::item{
+	padding:0px 40px 0px 30px;
+	height:25px;
+}
+QMenu#menu::item:selected:enabled{
+    background:lightgray;
+	color:white;
+}
+QMenu#menu::item:selected:!enabled{
+    background:transparent;
+}
+QMenu#menu::separator{
+    height:1px;
+    background:lightgray;
+	margin:2px 0px 2px 0px;
+}
+QMenu#menu::indicator {
+    padding:10px;
+}
+
+QToolTip{
+	border:1px solid gray;
+	background:white;
+	color:black;
+}
+
+QComboBox{
+	border:1px solid rgb(180, 180, 180);
+}
+QComboBox QAbstractItemView::item{
+	height:30px;
+}
+QComboBox::down-arrow{
+	image:url(:/loginDialog/arrowDown);
+}
+QComboBox::drop-down{
+	width:20px;
+	border:none;
+}
+
+QListView::item{
+	background:transparent;
+}
+QListView::item:hover{
+	background:rgb(60, 140, 210);
+}
+
+QLineEdit{
+	border:1px solid rgb(180, 180, 180);
+}
+
+QGroupBox::title{
+	color:green;
+}
+
+QTabWidget::pane{
+	border:none;
+}
+QTabWidget::tab-bar{
+	alignment:center;
+}
+QTabBar::tab{
+	background:transparent;
+	color:white;
+	min-width:30ex;
+	min-height:10ex;
+}
+QTabBar::tab:hover{
+	background:rgb(255, 255, 255, 100);
+}
+QTabBar::tab:selected{
+	border-color: white;
+	background:white;
+	color:green;
+}
+QMenu{
+    background:white;
+    border:1px solid lightgray; # 边框为灰色
+}
+ 
+QMenu::item{
+    padding:0px 20px 0px 20px;
+    margin-left: 5px;
+    height:25px;
+}
+ 
+QMenu::item:selected:enabled{
+    background: lightgray;   # 菜单项选中时背景色设置为浅灰色
+    color: white;            # 文本颜色设置为白色，否则看不清文本内容了
+}
+ 
+QMenu::separator{
+    height:1px;
+    background: lightgray;   # 菜单分割线也设置为浅灰色
+    margin:2px 0px 2px 0px;
+}
+ 
+QMenu::item:selected:!enabled{
+    background:transparent;
+}
+ 
+QPushButton#TrayButton {
+    border: none;    # 无边框按钮
+    background: transparent;  # 按钮背景设置为透明，这样不会受到默认主题颜色干扰
+}
+ 
+QPushButton#TrayButton:hover {
+    background: rgb(233, 237, 252);  # 鼠标悬停时，按钮背景色设为淡色
+    color: rgb(42, 120, 192);    # 鼠标悬停时，文本颜色不变
+}

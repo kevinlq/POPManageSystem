@@ -1,0 +1,83 @@
+QWidget#Login_widget_title{
+	/*background: qlineargradient(spread:padding-bottom, x1:0, y1:0, x2:0, y2:1, stop:0 #14A2E5, stop:1 #039FE9);*/
+	background-image: url(:/image/login/tooltip.png);
+}
+QWidget#widget_title{
+	background: qlineargradient(spread:padding-bottom, x1:0, y1:0, x2:0, y2:1, stop:0 #14A2E5, stop:1 #039FE9);
+}
+QLabel#lab_Ico{
+	border-radius:0px;
+	color:white;
+	background-color:rgba(0,0,0,0);
+	border-style:none;
+}
+
+QPushButton#btnMenu_Min,QPushButton#btnMenu_Close{
+	border-radius:0px;
+	color: white;
+	background-color:rgba(0,0,0,0);
+	border-style:none;
+}
+
+QPushButton#btnMenu_Min:hover{
+	background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgba(25, 134, 199, 0), stop:1 #5CACEE);
+}
+
+QPushButton#btnMenu_Close:hover{
+	background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgba(238, 0, 0, 128), stop:1 rgba(238, 44, 44, 255));
+}
+QPushButton#pbnFindGoodsId,QPushButton#pbnFindMmeber{
+	border: 1px solid #09A3DC;
+	border-radius:2px;
+}
+.QGroupBox{
+	border: 1px solid #09A3DC;
+	border-radius: 4px;
+}
+
+QLineEdit {
+	border: 1px solid #5CACEE;
+	border-radius: 5px;
+	padding: 2px;
+	background: none;
+	selection-background-color: #1B89CA;
+}
+QLineEdit[echoMode="2"] { 
+	lineedit-password-character: 9679; 
+}
+QCheckBox {
+	spacing: 2px; 
+}
+QCheckBox::indicator {
+	width: 20px;
+	height: 20px;
+}
+
+QCheckBox::indicator:unchecked {
+	image: url(:/image/checkbox_unchecked.png);
+}
+
+QCheckBox::indicator:checked {
+	image: url(:/image/checkbox_checked.png); 
+}
+
+QComboBox,QDateEdit{
+	border-radius: 3px;
+	padding: 1px;
+	border: 1px solid #5CACEE;
+}
+
+QComboBox::drop-down,QDateEdit::drop-down {
+	subcontrol-origin: padding;
+	subcontrol-position: top right;
+	width: 15px; 
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	border-left-color: #5CACEE;
+}
+
+QComboBox::down-arrow,QDateEdit::down-arrow {
+	image: url(:/image/array_down.png); 
+}

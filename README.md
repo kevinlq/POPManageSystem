@@ -1,0 +1,2 @@
+# POPManageSystem
+使用Qt开发的一个简单的超市收银管理系统

@@ -40,7 +40,7 @@ void TitleBar::CreateWidget()
     m_pLabelIcon->setPixmap(objPixmap.scaled(TITLE_H,TITLE_H));
     //文本标签--标题
     m_pLabelTitle = new QLabel(this);
-    m_pLabelTitle->setText(QString("大众超市收银管理系统"));
+    m_pLabelTitle->setText(QString("大众超市收银管理系统  公众号：devstone"));
     //文本标签--样式版本
     m_pLabelVersion = new QLabel(this);
     m_pLabelVersion->setText(QString("V1.0"));

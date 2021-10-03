@@ -30,7 +30,7 @@ StatuBar::StatuBar(QWidget *parent): QWidget(parent)
 //创建部件
 void StatuBar::CreateWidget()
 {
-    m_pLabelProVer = new QLabel("技术支持：太原联航科技有限公司",this);
+    m_pLabelProVer = new QLabel("技术支持：公众号 destone",this);
     m_pLabelBklib = new QLabel(Myapp::CurrentUserName,this);
     m_pBtnUpdate = new QToolButton(this);
     m_pBtnUpdate->setText("检查更新");

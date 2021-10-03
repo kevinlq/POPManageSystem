@@ -14,7 +14,16 @@
    <string>Dialog</string>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout_4">
-   <property name="margin">
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
     <number>0</number>
    </property>
    <item>
@@ -49,7 +58,16 @@
         <property name="sizeConstraint">
          <enum>QLayout::SetNoConstraint</enum>
         </property>
-        <property name="margin">
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
          <number>0</number>
         </property>
         <item>
@@ -105,7 +123,16 @@
            <property name="spacing">
             <number>0</number>
            </property>
-           <property name="margin">
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
             <number>0</number>
            </property>
            <item>
@@ -318,7 +345,7 @@
                </font>
               </property>
               <property name="text">
-               <string>山西省太原市五一路桥头街省塑料大厦1218</string>
+               <string>北京市</string>
               </property>
              </widget>
             </item>
@@ -358,7 +385,7 @@
                </font>
               </property>
               <property name="text">
-               <string>***********</string>
+               <string>936563422</string>
               </property>
              </widget>
             </item>
@@ -410,7 +437,7 @@
                </font>
               </property>
               <property name="text">
-               <string>太原联航科技有限公司</string>
+               <string>公众号：devstone</string>
               </property>
              </widget>
             </item>
@@ -428,7 +455,7 @@
                </font>
               </property>
               <property name="text">
-               <string>张老师</string>
+               <string>devstone</string>
               </property>
              </widget>
             </item>
@@ -449,7 +476,7 @@
             <string>保存</string>
            </property>
           </widget>
-          <widget class="QWidget" name="">
+          <widget class="QWidget" name="layoutWidget">
            <property name="geometry">
             <rect>
              <x>10</x>

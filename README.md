@@ -9,18 +9,18 @@
 
 登录
 
-![登录界面](:/screen/login.png)
+![登录界面](./screen/login.png)
 
 主界面
 
-![主界面](:/screen/mainFrame.png)
+![主界面](./screen/mainFrame.png)
 
-![主界面](:/screen/mainFrame2.png)
+![主界面](./screen/mainFrame2.png)
 
 
 会员管理
 
-![主界面](:/screen/memberMgr.png)
+![主界面](./screen/memberMgr.png)
 
 ## 总结
 

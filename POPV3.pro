@@ -7,7 +7,7 @@ CONFIG += QT
 QT += core gui
 QT += sql
 QT   +=printsupport
-TARGET += POPV3
+TARGET = POPV3
 
 include(src/stylewidget/stylewidget.pri)
 include(src/widget/contentwidget/contentwidget.pri)
